@@ -1,12 +1,14 @@
+package Part1;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
-
-public class test {
+/*
+ * 알파벳 제일 많은거 세기
+ */
+public class Q1157 {
     public static void main(String[] args) throws FileNotFoundException {
         System.setIn(new FileInputStream("input.txt"));
         Scanner sc = new Scanner(System.in);

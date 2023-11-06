@@ -1,8 +1,13 @@
+package Part1;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-class test{
+/*
+ * 알파벳 대소문자 바꾸기
+ */
+class Q2744{
     public static void main(String[] args) throws FileNotFoundException {
         System.setIn(new FileInputStream("input.txt"));
         Scanner sc = new Scanner(System.in);
