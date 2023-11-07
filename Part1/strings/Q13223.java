@@ -1,4 +1,4 @@
-package Part1;
+package strings;
 
 /*
  * 시간빼기
